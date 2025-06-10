@@ -1,22 +1,68 @@
 <html>
-  <head>
-    <title>Javascript</title>
-  </head>
-  <body>
-    <h5>What is javascript?</h5>
-    <br />
-    <h2>
-      Javascript is a programming language of the web and can update html and
-      css. It can calculate, manipulate and validate data
-    </h2>
-    <p id="data"></p>
-    <button onclick="onButtonClick()">Change</button>
-  </body> 
-  <script>
-    function onButtonClick()
-    {
-      document.getElementById("data").innerHTML =
-        "welcome to javascipt tutorial";
-    }
-  </script>
+
+<head>
+  <title>Javascript Home</title>
+</head>
+
+<body>
+  <h3>What is javascript?</h3>
+  <br />
+  <ul>
+    <li>JavaScript is a lightweight open source and cross platform programming language which is used to create dynamic
+      and interative elements with web applications</li>
+    <li>The advantages of javascript are Client Side validation, manipulationg html pages, data rendering, data
+      visualization.
+    </li>
+  </ul>
+  <h2>
+    JavaScript has two types of values
+    1.) Fixed Values (Literals)
+    2.) Dynamic values (var)
+  </h2>
+  <div>
+    <h2>Data Types</h2>
+    JavaScript support primitive and non primitive data types<br/>
+    Data types are the base of programming languages since it stores the values into variables.<br/>
+    Primitve data types are string,number,boolean,null,undefined in ES5,Symbol and Bigint introduced in ES6.<br/>
+    Composite Data types are Object, Array & Date<br/>
+    Object is in the json format which stores key value pairs.<br/>
+    Array stored the information in the list format<br/>
+    Date is a simple date.<br/>
+    typeOf is used to check the data type of the variable.<br/>
+  </div>
+  <div>
+    <h2> strict Mode</h2>
+    'use strict' means variable declaration is must and readable property cannot be changed.<br/>
+    Introduced in ES5 2009 to error prevention and security reasons.<br/>
+  </div>
+  <p id="data"></p>
+  <button onclick="onButtonClick()">Change</button>
+
+  <div>
+    <h1>JavaScript Comments</h1>
+    <div>Two types of comments Single ('//') and Multiple ('<!---->') line comments</div>
+  </div>
+</body>
+<script>
+  /* this function is used 
+  to click on click and changes the apperance on html*/
+  function onButtonClick() {
+    //hello world example
+    var text = "welcome to javascipt tutorial."
+    console.log(text);
+
+    /* Multi line Comments
+       Testing the details*/
+    var _objValue = {
+      name: "Asif",
+      middleName: "Iqbal",
+      lastname: "Sorathiya"
+    };
+
+    console.log(_objValue);
+
+    document.getElementById("data").innerHTML = text;
+  }
+</script>
+
 </html>
