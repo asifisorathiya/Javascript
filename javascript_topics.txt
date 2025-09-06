@@ -1,0 +1,30 @@
+Type Conversion and Coercion
+
+falsy values 0,'',null,undefined,NaN
+
+Equality == vs ===
+
+Boolean Logic
+
+Logical Operators
+
+switch statement
+
+statement and expression
+
+Conditional Statement
+
+Strict Mode
+
+functions
+
+function declaration and function expression
+
+declaration can be called before initialization and it cannot happen in expression
+
+arrow function implicitly and this is not possible
+
+Function calling functions
+
+
+
