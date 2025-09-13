@@ -1,0 +1,23 @@
+body {
+  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+img {
+  border: solid 1px black;
+  width: 30%;
+}
+
+form {
+  border: solid 2px black;
+  text-align: center;
+}
+
+input {
+  border: solid 1px black;
+  width: 20%;
+}
